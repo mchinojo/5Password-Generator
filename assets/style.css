@@ -13,8 +13,8 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: 'Epilogue', sans-serif;
+  background-color: rgb(178, 208, 213);
 }
 
 .wrapper {
@@ -25,17 +25,19 @@ body {
 
 header {
   text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
   padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: rgb(116, 94, 222);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: rgb(178, 208, 213);
+  text-align: center;
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px; */
+  color: black;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -46,8 +48,12 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: rgb(178, 208, 213);
   height: 2px;
+}
+
+::placeholder {
+  color: hsl(206, 17%, 28%);
 }
 
 .card-body {
@@ -62,7 +68,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: rgb(178, 208, 213);
   height: 2px;
 }
 
@@ -74,12 +80,12 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(116, 94, 222);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
   display: inline-block;
+  font-family: 'Epilogue', sans-serif;
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
@@ -88,9 +94,8 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
-  cursor: default;
-  background: #c0c7cf;
+.btn:hover {
+  background-color: rgb(70, 48, 184);
 }
 
 .float-right {
@@ -98,6 +103,7 @@ button[disabled] {
 }
 
 #password {
+  background-color: rgb(178, 208, 213);
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -108,11 +114,12 @@ button[disabled] {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
+  font-family: 'Epilogue', sans-serif;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed black;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
