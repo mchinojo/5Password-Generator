@@ -1,79 +1,44 @@
 # Module 5 Challenge: Password Generator
 
-## Overview
+## Description
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+This project is about creating an application that a user can operate to generate a random password based on criteria they’ve selected by modifying a starter code on JavaScript.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+My application should have the following requirements:
 
-## Instructions
-
-The following image shows the web application's appearance and functionality:
-
-![password generator demo](./assets/05-javascript-challenge-demo.png)
-
-
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
+* Generate a password when the button is clicked.
+  * Present a prompt for these password criteria:
+    * Length of password:
       * At least 10 characters but no more than 64.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
+    * Character types:
+      * Lowercase.
+      * Uppercase.
+      * Numeric.
+      * Special characters.
+  * My code should validate for each input and at least one character type should be selected.
   * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
 
-## Grading Requirements
 
-This challenge is graded based on the following criteria: 
+This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. Also it should have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
-### Technical Acceptance Criteria: 40%
+## Installation
 
-* Satisfies all of the above acceptance criteria plus the following:
+Clone the project and open it using your favourite browser (I recommend using Chrome).
 
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
+## Usage
 
-### Deployment: 32%
+My web application should resemble this following image in appareance and funcionality, although I had fun adding a little bit of colour.
 
-* Application deployed at live URL.
+![password generator demo](assets/05-javascript-challenge-demo.png)
 
-* Application loads with no errors.
+## Credits
 
-* Application GitHub URL submitted.
+This project was made possible by my instructors and teacher assistants. Also I followed some tutorials from W3Schools and MDN Web Docs:
 
-* GitHub repository that contains application code.
+https://www.w3schools.com/
 
-### Application Quality: 15%
+https://developer.mozilla.org/
 
-* Application user experience is intuitive and easy to navigate.
+## License 
 
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Please refer to the LICENSE in the repo.
