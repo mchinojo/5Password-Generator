@@ -126,6 +126,8 @@ header {
 }
 
 @media (max-width: 690px) {
+
+
   .btn {
     font-size: 1rem;
     text-align: center;
@@ -139,6 +141,10 @@ header {
 }
 
 @media (max-width: 500px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
   .btn {
     font-size: 0.8rem;
   }
