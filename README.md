@@ -20,7 +20,7 @@ My application should have the following requirements:
 
 This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. Also it should have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
-Here is a link to the deployed application: https://mchinojo.github.io/Challenge5-Password-Generator/
+Here is a link to the deployed application: https://github.com/mchinojo/5Password-Generator
 
 
 ## Installation
